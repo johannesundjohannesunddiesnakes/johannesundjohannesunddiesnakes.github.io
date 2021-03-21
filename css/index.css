@@ -7,6 +7,9 @@
   }
 }
 
+.lauftext {
+    width: 35%;
+}
 .ascii-art {
     font-family: monospace;
     font-size: 2px;
@@ -15,9 +18,13 @@
 .bottom-wmargin {
    margin-bottom: 50px;
 }
+.left-wmargin {
+   margin-left: 180px;
+}
 body {
   max-width: var( --max-input-width );
   margin: 20px;
   margin-left: 2px;
   font-family: Helvetica,sans-serif;
+  font-size: 14px;
 }
