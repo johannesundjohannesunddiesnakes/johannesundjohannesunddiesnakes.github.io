@@ -9,6 +9,7 @@
 
 .ascii-art {
     font-family: monospace;
+    font-size: 2px;
     white-space: pre;
 }
 .bottom-wmargin {
