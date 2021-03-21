@@ -17,6 +17,6 @@
 body {
   max-width: var( --max-input-width );
   margin: 20px;
-  margin-left: 250px;
+  margin-left: 2px;
   font-family: Helvetica,sans-serif;
 }
