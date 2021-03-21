@@ -1,14 +1,14 @@
 :root {
-  --max-input-width: 1000px;
+  --max-input-width: 360px;
 }
 @media screen and (min-width: 750px) {
   :root {
-    --max-input-width: 1000px;
+    --max-input-width: 360px;
   }
 }
 
 .lauftext {
-    width: 35%;
+    width: 360px;
 }
 .ascii-art {
     font-family: monospace;
