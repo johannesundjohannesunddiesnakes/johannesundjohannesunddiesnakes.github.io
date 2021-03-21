@@ -1,3 +1,11 @@
+:root {
+  --max-input-width: 1000px;
+}
+@media screen and (min-width: 750px) {
+  :root {
+    --max-input-width: 1000px;
+  }
+}
 
 .ascii-art {
     font-family: monospace;
@@ -7,8 +15,9 @@
    margin-bottom: 50px;
 }
 body {
-  max-width: 1000px;
+  max-width: var( --max-input-width );
   margin: 20px;
   margin-left: 250px;
   font-family: Helvetica,sans-serif;
 }
+
