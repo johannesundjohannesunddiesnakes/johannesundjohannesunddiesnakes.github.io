@@ -1,11 +1,11 @@
 :root {
   --max-input-width: 1000px;
-  --margin-left: 10px;
+  --margin-left: 250px;
 }
 @media screen and (min-width: 750px) {
   :root {
-    --max-input-width: 100px;
-    --margin-left: 10px;
+    --max-input-width: 1000px;
+    --margin-left: 250px;
   }
 }
 
