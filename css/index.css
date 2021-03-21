@@ -1,9 +1,11 @@
 :root {
   --max-input-width: 1000px;
+  --margin-left: 250px;
 }
 @media screen and (min-width: 750px) {
   :root {
     --max-input-width: 1000px;
+    --margin-left: 10px;
   }
 }
 
@@ -17,7 +19,7 @@
 body {
   max-width: var( --max-input-width );
   margin: 20px;
-  margin-left: 250px;
+  margin-left: var( --margin-left );
   font-family: Helvetica,sans-serif;
 }
 
