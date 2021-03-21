@@ -1,0 +1,14 @@
+
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+}
+.bottom-wmargin {
+   margin-bottom: 50px;
+}
+body {
+  max-width: 1000px;
+  margin: 20px;
+  margin-left: 250px;
+  font-family: Helvetica,sans-serif;
+}
