@@ -1,30 +1,111 @@
 :root {
-  --max-input-width: 360px;
+  --input-width: 960px;
+  --body-margin:50px;
+  --body-margin-left:5%;
+  --body-font-size:14px;
+  --ascii-art-font-size: 5.3px;
+  --lauftext-width: 100%;
+  --margin-bottom: 50px;
+  --margin-left: 180px;
+  --section-width: 25%;
 }
-@media screen and (min-width: 750px) {
+/*
+@media screen and (max-width: 350px) {
   :root {
-    --max-input-width: 360px;
+    --input-width: 350px;
+    --body-margin:50px;
+    --body-margin-left:5%;
+    --body-font-size:4px;
+    --ascii-art-font-size: 1.4px;
+    --lauftext-width: 100%;
+    --margin-bottom: 50px;
+    --margin-left: 180px;
   }
-}
+*/
 
 .lauftext {
-    width: 360px;
+    width: var( --lauftext-width );
 }
 .ascii-art {
     font-family: monospace;
-    font-size: 2px;
-    white-space: pre;
+    font-size: var( --ascii-art-font-size );
+    white-space: pre-wrap;
 }
 .bottom-wmargin {
-   margin-bottom: 50px;
+   margin-bottom: var( --margin-bottom );
 }
 .left-wmargin {
-   margin-left: 180px;
+   margin-left: var( --margin-left );
 }
+
+section {
+  float: left;
+  margin: 1% 0%;
+  width:var(--section-width);
+}
+
 body {
-  max-width: var( --max-input-width );
-  margin: 20px;
-  margin-left: 2px;
+  max-width: var( --input-width );
+  margin: var( --body-margin );
+  margin-left: var( --body-margin-left );
   font-family: Helvetica,sans-serif;
-  font-size: 14px;
+  font-size: var( --body-font-size );
+}
+
+@media (max-width: 481px) {
+
+
+:root {
+  --input-width: 320px;
+  --body-margin:50px;
+  --body-margin-left:5%;
+  --body-font-size:12px;
+  --ascii-art-font-size: 1.3px;
+  --lauftext-width: 100%;
+  --margin-bottom: 50px;
+  --margin-left: 18px;
+  --section-width: 80%;
+}
+/*
+@media screen and (max-width: 350px) {
+  :root {
+    --input-width: 350px;
+    --body-margin:50px;
+    --body-margin-left:5%;
+    --body-font-size:4px;
+    --ascii-art-font-size: 1.4px;
+    --lauftext-width: 100%;
+    --margin-bottom: 50px;
+    --margin-left: 180px;
+  }
+*/
+
+.lauftext {
+    width: var( --lauftext-width );
+}
+.ascii-art {
+    font-family: monospace;
+    font-size: var( --ascii-art-font-size );
+    white-space: pre-wrap;
+}
+.bottom-wmargin {
+   margin-bottom: var( --margin-bottom );
+}
+.left-wmargin {
+   margin-left: var( --margin-left );
+}
+
+section {
+  float: left;
+  margin: 1% 0%;
+  width:var(--section-width);
+}
+
+body {
+  max-width: var( --input-width );
+  margin: var( --body-margin );
+  margin-left: var( --body-margin-left );
+  font-family: Helvetica,sans-serif;
+  font-size: var( --body-font-size );
+}
 }
