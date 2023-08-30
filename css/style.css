@@ -60,6 +60,20 @@ ul {
 	list-style: none;
 }
 
+.column {
+            display: inline-block;
+            width: 40%; /* Verringere den Wert, um etwas Platz für den Abstand zu lassen */
+            vertical-align: top;
+        }
+
+.right-align {
+            text-align: right;
+        }
+
+.left-align {
+            text-align: left;
+        }
+
 /* Footer-Stile */
 footer {
 	background-color: #333;
